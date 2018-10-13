@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E5CFDD;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	color: #EBDCE6;
+	background-color: #9C3A72;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+}
+
+form {
+	text-align: center;
+}
+
+a {
+	color: #EBDCE6;
+}
+
+#btn {
+	background-color: #F47F31;
+	border-radius: 5px;
+}
+
+#report {
+	background-color: #C085A6;
+	margin: 10px 300px;
+	text-align: center;
+	
+}
+
+.top-wrapper {
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #9C3A72;
+	width: 90%;
+}
+
+.bottom-wrapper {
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #9C3A72;
+	width: 70%;
+}
+
+#city-state, 
+#temperature, 
+#icon, 
+#description, 
+#humidity {
+	text-align: center;
+}
+
+#city-state {
+	text-align: center;
+	font-size: 30px;
+	padding-top:20px;
+}
+
+#temperature {
+	font-size: 85px;
+	display: inline-block;
+}
+
+#celsius {
+	font-size: 40px;
+	display: inline-block;
+}
+
+#icon {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#description, #humidity, #wind {
+	font-size: 25px;
+	margin: 10px;
+}
+
+#wind {
+	padding-bottom: 20px;
+}
+
+footer {
+	color: #EBDCE6;
+	background-color: #9C3A72;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 10px;
+}
