@@ -6,7 +6,7 @@ function myGetRequest() {
 	var cityName = document.getElementById("input-city").value;	
 	var myRequest = new XMLHttpRequest();
 
-	myRequest.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=" + cityName +  "&units=metric&APPID=044f2b0146dc4727c03499a503f50dc4", true);	
+	myRequest.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=" + cityName +  "&units=metric&APPID=044f2b0146dc4727c03499a503f50dc4", true);	
 	myRequest.onreadystatechange = function() {
 				
 		if (this.readyState == 4 && this.status == 200) {
